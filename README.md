@@ -35,12 +35,13 @@ sudo bash restore.sh
     source_dir: Path to the encrypted backup file you want to restore.
     decryption_key: Passphrase for decrypting the backup file.
     dest_dir: Directory where the restored files will be placed.
-7. Run cron.sh in case you need to run the system periodically,you can adjust it the way suits your needs.
+7. Run cron.sh in case you need to run the system periodically,you can adjust it the way suits your needs. 
 
 
 ## Important Notes
 
 -Keep your encryption keys and passphrases secure and do not share them.
+
 -Backup and restore operations require appropriate permissions for the source and destination directories so you might need to use 'sudo' .
 
 
