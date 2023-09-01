@@ -165,7 +165,7 @@ backup() {
     sudo rm "$dest_dir/${combined_tar_name}.gz"
     echo "Original combined tar file removed"
     # Copy backup to remote server using scp #configured ssh on remote server and all done
-    scp -r "$dest_dir/combined_${date_var}.tar.gz.gpg" gaser98@gaser98-virtual-machine:~/remote_backup_dir
+    scp -r "$dest_dir/combined_${date_var}.tar.gz.gpg" user@host:~/remote_backup_dir
     echo "Backup completed"
 }
 # Function to validate restore parameters
